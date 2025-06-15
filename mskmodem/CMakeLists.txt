@@ -9,7 +9,7 @@ set_target_properties( mskmodem PROPERTIES COMPILE_FLAGS -fPIC)
 
 target_link_libraries( mskmodem 
                        m #Math
-                       jack
+		       ${JACK_LIBRARIES}
                        ${GLIB2_LIBRARIES} 
                        #${PULSEAUDIO_LIBRARY} 
                        #${PULSEAUDIO_MAINLOOP_LIBRARY} 

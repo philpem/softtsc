@@ -1,0 +1,5 @@
+JACK:
+  https://github.com/Cloudef/vcable/blob/master/CMake/FindJACK.cmake
+ not used -> https://raw.githubusercontent.com/marsyas/marsyas/refs/heads/master/cmake-modules/FindJack.cmake
+  
+GLIB: https://github.com/KDE/extra-cmake-modules/blob/master/find-modules/FindGLIB2.cmake

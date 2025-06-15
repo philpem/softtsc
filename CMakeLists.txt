@@ -29,9 +29,11 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 
 find_package(PkgConfig REQUIRED)
 find_package(GLIB2 REQUIRED)
+find_package(JACK REQUIRED)
 
 include_directories( include 
-                     ${GLIB2_INCLUDE_DIRS}  )
+                     ${GLIB2_INCLUDE_DIRS}
+	             ${JACK_INCLUDE_DIRS}  )
 
 add_subdirectory(mskmodem)
 add_subdirectory(module)
